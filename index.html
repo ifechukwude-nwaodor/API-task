@@ -1,0 +1,149 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>doggy</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel ="stylesheet" href="css/all.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container">
+                <a class="navbar-brand text-warning fs-1 ms-3" href="#">Doggy</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="header mb-5">
+            <h2 class=" pt-5 text-center text-primary">A dog<br> is a man's<br> best friend.</h2>
+        </section>
+        <div class="container">
+            <section class="info bg-primary py-5 info position-relative">
+                <h2 class="text-light ms-5">What our community is all about</h2>
+                <p class="text-light ms-5">We are a community of dog lovers who are interested in helping each other ensure that our dog have the best care.</p>
+                <p class="text-light ms-5">Members share helpful tips to help other users going through one problem or the other concerning their dogs. You can also post a question and members will be more than willing to answer your dog trouble needs.</p>
+                <div class="blob"></div>
+                <div class="blob2"></div>
+            </section>
+
+            <section class="py-5">
+                <h4>Aren't they such beautiful creatures?</h4>
+                <div class="row">
+                    <div class="col-lg-4 mb-3 dog">
+                       <img src="image/dog4.jpg" class="img-fluid rounded-circle">
+                    </div>
+
+                    <div class="col-lg-4 mb-3 dog1">
+                        <img src="image/dog1.jpg" class="img-fluid rounded-circle">
+                     </div>
+
+                     <div class="col-lg-4 mb-3 dog2">
+                        <img src="image/dog2.jpg" class="img-fluid rounded-circle">
+                     </div>
+                </div>
+            </section>
+
+            <section class="py-3">
+                <p class>Share your insights with other dog lovers by creating helpful contents or you can just post a fun experience you had with your dog. We'd love to know all about it</p>
+                <div class="row position-relative">
+                    <div class="col-6 mx-auto createImage h-200">
+                        <img src="image/dog6.jpg" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="blob2"></div>
+                    <div class="blob"></div>
+                </div>
+                <div class="py-5">
+                <form id="post-content">
+                    <div>
+                        <input type="text" id="title" placeholder="Title" class="p-3">
+                    </div><br>
+                    <div>
+                        <textarea type="text" id="body" placeholder="write your post" cols="50" rows="10" class="form-control p-3 rounded-top"></textarea>
+                    </div>
+                    <div class="text-center mt-5 d-flex justify-content-flex-end">
+                        <button type="submit" class="btn btn-warning px-5">Post</button>
+                    </div>
+                </form>
+                </div>
+            </section>
+
+            <section>
+                    <p>Read some helpful and fun content created by other dog lovers like you</p>
+                    <div class="row py-5" id="posts">
+                    </div>
+            </section>
+        </div>
+        <section class="bg-primary">
+            <div class="row px-5">
+                <div class="col-lg-4">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Login</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">activities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">volunteering oppurtunities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">dog sale</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#"> conferences</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">book recommendations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">dog adoption</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+        <footer class="bg-dark py-3 text-center">
+            <p class="text-light fst-italic">copyright 2022</p>
+            <h6 class="text-warning">Designed by ifechukwude</h6>
+        </footer>
+        <script src="js/app.js"></script>
+    </body>
+</html>
