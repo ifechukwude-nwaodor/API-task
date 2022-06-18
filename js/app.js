@@ -24,12 +24,12 @@ function populatePost(){
                                     <h3 class="ps-3 fst-italic">${post.title}</h3>
                                     <p class="ps-3">${post.body}</p>
                                     <div class=" d-inline">
-                                        <button class="btn btn-warning btn-lg ms-3 me-2 ms-5" onclick="viewPost(${post.id})">View</button>
+                                        <button class="btn btn-warning btn-lg ms-3 me-2" onclick="viewPost(${post.id})">View</button>
                                         <button class="btn btn-secondary btn-lg me-2" onclick="editPost(${post.id})">Edit</button>
                                         <button class="btn btn-primary btn-lg" onclick="deletePost(${post.id})">Delete</button>
                                     </div>
-                                    <div class="d-inline ms-5 mt-3">
-                                       <div class="d-inline me-5">
+                                    <div class="d-inline ms-3 mt-3">
+                                       <div class="d-inline me-3">
                                             <i class="fa-solid fa-heart"></i>
                                             <p class="d-inline-block">2.5k</p>
                                         </div>
