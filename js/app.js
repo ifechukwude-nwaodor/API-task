@@ -19,10 +19,10 @@ function populatePost(){
                                     <div class="profile d-flex justify-content-flex-start ms-5">
                                         <img src="image/blackgirl.jpg" class="img-fluid rounded-circle">
                                     </div>
-                                    <p class="ms-4">jane young</p>
+                                    <p class="ms-4">Jane Young</p>
                                     <p class="ps-3">${post.id}</p>
                                     <h3 class="ps-3 fst-italic">${post.title}</h3>
-                                    <p class="ps-3">${post.body}</p>
+                                    <p class="ps-3 text-secondary">${post.body}</p>
                                     <div class=" d-inline">
                                         <button class="btn btn-warning btn-lg ms-3 me-2" onclick="viewPost(${post.id})">View</button>
                                         <button class="btn btn-secondary btn-lg me-2" onclick="editPost(${post.id})">Edit</button>
@@ -81,16 +81,16 @@ function makePost(e) {
                         <div class="profile d-flex justify-content-flex-start ms-5">
                             <img src="image/blackgirl.jpg" class="img-fluid rounded-circle">
                         </div>
-                        <p class="ms-4">jane young</p>
+                        <p class="ms-4">Jane Young</p>
                         <p class="ps-3">${post.id}</p>
                         <h3 class="post-title ps-3">${post.title}</h3>
-                        <p class="post-body ps-3">${post.body}</p>
+                        <p class="post-body ps-3 text-secondary">${post.body}</p>
                         <div class="d-inline">
                             <button class="btn btn-warning btn-lg me-2 ms-3" onclick="viewPost(${post.id})">view</button>
                             <button class="btn btn-secondary btn-lg me-2" onclick="editPost(${post.id})">Edit</button>
                             <button class="btn btn-primary btn-lg" onclick="deletePost(${post.id})">Delete</button>
                         </div>
-                        <div class="d-inline ms-5 mt-3">
+                        <div class="d-inline ms-3 mt-3">
                                <div class="d-inline me-3">
                                     <i class="fa-solid fa-heart"></i>
                                     <p class="d-inline-block">2.5k</p>
@@ -135,16 +135,16 @@ function deletePost(id) {
                         <div class="profile d-flex justify-content-flex-start ms-5">
                             <img src="image/blackgirl.jpg" class="img-fluid rounded-circle">
                         </div>
-                        <p class="ms-4">jane young</p>
+                        <p class="ms-4">Jane Young</p>
                         <p class="ps-3">${post.id}</p>
                         <h3 class="post-title ps-3">${post.title}</h3>
-                        <p class="post-body ps-3">${post.body}</p>
+                        <p class="post-body ps-3 text-secondary">${post.body}</p>
                         <div class="d-inline">
                             <button class="btn btn-warning btn-lg ms-3 me-2" id="view-btn" onclick="viewPost(${post.id})">view</button>
                             <button class="btn btn-secondary btn-lg me-2" onclick="editPost(${post.id})">Edit</button>
                             <button class="btn btn-primary btn-lg" onclick="deletePost(${post.id})">Delete</button>
                         </div>
-                        <div class="d-inline ms-5 mt-3">
+                        <div class="d-inline ms-3 mt-3">
                             <div class="d-inline me-3">
                                 <i class="fa-solid fa-heart"></i>
                                 <p class="d-inline-block">2.5k</p>
