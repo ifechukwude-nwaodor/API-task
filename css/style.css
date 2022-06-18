@@ -56,29 +56,6 @@ body{
 .dog2 :nth-of-type(1):hover{
     border-radius: 20% 60% 80% 80% / 90% 70% 90% 60% !important;
 }
-.blob{
-    width:200px;
-    height:200px;
-    position:absolute;
-    bottom:-20px;
-    left:-10px;
-    background: linear-gradient(30deg, rgb(128, 128, 200, 0.8), rgba(243, 200, 119,0.6));
-    border-radius:60% 67% 76% 45% / 24% 56% 50% 38%!important; 
-    transform: rotate(60deg);
-    z-index: -1;
-}
-
-.blob2{
-    width:300px;
-    height:300px;
-    position:absolute;
-    top:-20px;
-    right:-10px;
-    background: linear-gradient(30deg, rgb(128, 128, 200, 0.8), rgba(243, 200, 119,0.6));
-    border-radius:60% 67% 76% 45% / 24% 56% 50% 38%!important; 
-    transform: rotate(60deg);
-    z-index: -1;
-}
 
 .profile{
     height: 50px;
