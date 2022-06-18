@@ -78,4 +78,15 @@
     height: 50px;
     width:50px
 }
+.logo{
+    width:300px;
+    height:100px
+}
+
+.fa-heart{
+    color:red
+}
+.fa-comment{
+    color:rgb(25, 22, 22)
+}
 
