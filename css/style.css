@@ -12,7 +12,7 @@ body{
 
 .header{
     background:linear-gradient(to bottom, rgba(97, 97, 193,0.6), rgba(240, 231, 231,0.5)),url(../image/dogbg.jpg) no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
 }
 
@@ -23,13 +23,13 @@ body{
 }
 
 .header{
-    min-height: 100vh;
+    min-height: 70vh;
 }
 
 .header h2{
-    font-size:60px;
+    font-size:50px;
     font-weight: 400;
-    line-height: 100px;
+    line-height: 80px;
 }
 
 .dog :nth-of-type(1) {
@@ -85,8 +85,8 @@ body{
     width:50px
 }
 .logo{
-    width:300px;
-    height:100px
+    width:200px;
+    height:80px
 }
 
 .fa-heart{
@@ -94,5 +94,8 @@ body{
 }
 .fa-comment{
     color:rgb(25, 22, 22)
+}
+.content{
+    height:60vh
 }
 
