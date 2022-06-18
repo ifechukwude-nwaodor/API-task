@@ -23,7 +23,11 @@ body{
 }
 
 .header{
+<<<<<<< HEAD
     min-height: 70vh;
+=======
+    min-height: 60vh;
+>>>>>>> b0319c2d0ef78c9e21af310718305bf01383850d
 }
 
 .header h2{
