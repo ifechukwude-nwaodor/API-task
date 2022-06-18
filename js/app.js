@@ -21,7 +21,7 @@ function populatePost(){
                                     </div>
                                     <p class="ms-4">jane young</p>
                                     <p class="ps-3">${post.id}</p>
-                                    <h3 class="ps-3">${post.title}</h3>
+                                    <h3 class="ps-3 fst-italic">${post.title}</h3>
                                     <p class="ps-3">${post.body}</p>
                                     <div class=" d-inline">
                                         <button class="btn btn-warning btn-lg ms-3 me-2 ms-5" onclick="viewPost(${post.id})">View</button>
